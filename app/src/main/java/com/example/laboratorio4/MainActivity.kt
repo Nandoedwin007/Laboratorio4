@@ -68,7 +68,8 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 startActivity(intent)
             }
             R.id.nav_Dirección -> {
-
+                val intent = Intent(this@MainActivity, Mapa::class.java)
+                startActivity(intent)
             }
         }
 
