@@ -39,5 +39,6 @@ class Mapa : AppCompatActivity(), OnMapReadyCallback {
         val guate = LatLng(14.6407200, -90.5132700)
         mMap.addMarker(MarkerOptions().position(guate).title("Ciuidad de Guatemala"))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(guate))
+        //Revision Error
     }
 }
